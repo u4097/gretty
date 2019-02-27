@@ -4,7 +4,7 @@ matrix:
   - jdk: openjdk11
     env: TEST_ALL_CONTAINERS="['jetty9.4']" TEST_ALL_GRADLE_VERSION="4.10.2"
   - jdk: openjdk11
-    env: TEST_ALL_CONTAINERS="['jetty9.4']" TEST_ALL_GRADLE_VERSION="5.0"
+    env: TEST_ALL_CONTAINERS="['jetty9.4']" TEST_ALL_GRADLE_VERSION="5.2.1"
   - jdk: openjdk11
     env: TEST_ALL_CONTAINERS="['tomcat85']" TEST_ALL_GRADLE_VERSION="4.10.2"
   - jdk: openjdk11
